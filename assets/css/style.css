@@ -82,7 +82,7 @@ p {
 .popbackground {
     border-radius: 8px;
     box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
-    background-color: #E1EBB3;
+    background-color: #E3F098;
     color: #ffffff;
     margin-bottom: 20px;
     padding-bottom: 15px;
@@ -3315,7 +3315,7 @@ textarea.form-control {
     content: "";
     display: inline-block;
     position: absolute;
-    right: 12px;
+    left: 12px;
     top: -11px;
   }
 
@@ -3335,7 +3335,7 @@ textarea.form-control {
     content: "";
     display: inline-block;
     position: absolute;
-    right: 12px;
+    Left: 12px;
     top: -10px;
   }
 
@@ -3448,7 +3448,7 @@ textarea.form-control {
   content: "";
   display: inline-block;
   position: absolute;
-  right: 12px;
+  left: 1px;
   bottom: -11px;
 }
 
