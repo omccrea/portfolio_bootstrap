@@ -3531,85 +3531,6 @@ textarea.form-control {
   right: auto;
 }
 
-.section-nucleo-icons {
-  padding: 100px 0;
-}
-.section-nucleo-icons .icons-container {
-  position: relative;
-  max-width: 450px;
-  height: 300px;
-  max-height: 300px;
-  margin: 0 auto;
-}
-.section-nucleo-icons .icons-container i {
-  font-size: 34px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.section-nucleo-icons .icons-container i:nth-child(1) {
-  top: 5%;
-  left: 7%;
-}
-.section-nucleo-icons .icons-container i:nth-child(2) {
-  top: 28%;
-  left: 24%;
-}
-.section-nucleo-icons .icons-container i:nth-child(3) {
-  top: 40%;
-}
-.section-nucleo-icons .icons-container i:nth-child(4) {
-  top: 18%;
-  left: 62%;
-}
-.section-nucleo-icons .icons-container i:nth-child(5) {
-  top: 74%;
-  left: 3%;
-}
-.section-nucleo-icons .icons-container i:nth-child(6) {
-  top: 36%;
-  left: 44%;
-  font-size: 65px;
-  color: #f5593d;
-  padding: 1px;
-}
-.section-nucleo-icons .icons-container i:nth-child(7) {
-  top: 59%;
-  left: 26%;
-}
-.section-nucleo-icons .icons-container i:nth-child(8) {
-  top: 60%;
-  left: 69%;
-}
-.section-nucleo-icons .icons-container i:nth-child(9) {
-  top: 72%;
-  left: 47%;
-}
-.section-nucleo-icons .icons-container i:nth-child(10) {
-  top: 88%;
-  left: 27%;
-}
-.section-nucleo-icons .icons-container i:nth-child(11) {
-  top: 31%;
-  left: 80%;
-}
-.section-nucleo-icons .icons-container i:nth-child(12) {
-  top: 88%;
-  left: 68%;
-}
-.section-nucleo-icons .icons-container i:nth-child(13) {
-  top: 5%;
-  left: 81%;
-}
-.section-nucleo-icons .icons-container i:nth-child(14) {
-  top: 58%;
-  left: 90%;
-}
-.section-nucleo-icons .icons-container i:nth-child(15) {
-  top: 6%;
-  left: 40%;
-}
-
 .section-dark .icons-container {
   color: #FFFFFF;
 }
@@ -3750,7 +3671,7 @@ textarea.form-control {
 .profile-content .tab-content .tab-pane {
   min-height: 200px;
 }
-.profile-content .tab-content #tweets, .profile-content .tab-content #connections, .profile-content .tab-content #media {
+.profile-content .tab-content , .profile-content .tab-content , .profile-content .tab-content {
   height: 100%;
 }
 
@@ -5845,6 +5766,7 @@ textarea.form-control {
 }
 
 .profile-content{
+    margin-top: 10px;
     padding-top: 0;
     position: relative;
     z-index: 2;
@@ -5862,7 +5784,7 @@ textarea.form-control {
 }
 
 .owner .name h4 {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .profile-tabs {
