@@ -48,7 +48,7 @@ p {
 
 .section-lead {
   font-family: "Muli", "Montserrat", "Helvetica", Arial, sans-serif;
-  font-size: 1.6em;
+  font-size: 1.5em;
   color: #444444;
   font-weight: 500;
   line-height: 1.7em;
@@ -99,6 +99,10 @@ p {
     position: relative;
     z-index: 1;
     border: 0 none;
+}
+
+.shaddowed {
+  box-shadow: -2px 5px 8px 2px #d3d3d3;
 }
 
 .finding {

@@ -69,10 +69,6 @@
                     <div class="name">
                         <h3 class="display-4">Shipshape Mental Health: Resources Re-Design</h3>
 						            <h4 class="muted">Rethinking page structure with a mobile-first approach</h4>
-                      </br>
-                      <div class="col-md-8 ml-auto mr-auto mx-auto text-center">
-                        <a href="#" class="btn btn-primary btn-round align-middle mx-auto mb-5"><i class="fa fa-link"></i> View Prototype</a>
-                      </div>
                     </div>
                 </div>
 							</div>
@@ -196,10 +192,10 @@
 
 <div class="row d-flex justify-content-center">
 	<div class="col-md-10 col-lg-6 mt-4 mb-4">
-			<img class="card-img" src="assets/img/mason_persona.jpg" alt="mason_persona">
+			<img class="card-img shaddowed" src="assets/img/mason_persona.jpg" alt="mason_persona">
 	</div>
 	<div class="col-md-10 col-lg-6 mt-4 mb-4">
-			<img class="card-img" src="assets/img/tanya_persona.jpg" alt="tanya_persona">
+			<img class="card-img shaddowed" src="assets/img/tanya_persona.jpg" alt="tanya_persona">
 	</div>
 </div>
 </div>
@@ -230,14 +226,15 @@
 				I used Google Sheets at the start of this exercise, but found that it was difficult to assign multiple categories to items in a way that produced a logical visual-summary. After some research on other options, I found the site "Airtable" - functional for my purposes of organizing content, but also can be transfered to the provider on the project's completion to be used as an internal database for tracking resources.
 			</div>
 		</div>
-	<div class="row mt-3 justify-content-center">
-    <div class="col-lg-6 col-md-12 d-flex justify-content-center">
-      <img src="#" alt="content_spreadsheet" style="100%" />
-    </div>
-		<div class="col-lg-6 col-md-12 d-flex justify-content-center">
-			<img src="#" alt="content_spreadsheet" style="100%" />
+
+		<div class="row mt-3 d-flex justify-content-center">
+			<div class="col-md-12 col-lg-6 mt-4 mb-4">
+					<img class="card-img shaddowed" src="assets/img/shipshape_content_before.jpg" alt="content_early">
+			</div>
+			<div class="col-md-12 col-lg-6 mt-4 mb-4">
+					<img class="card-img shaddowed" src="assets/img/shipshape_content_now.jpg" alt="content_now">
+			</div>
 		</div>
-	</div>
 </div>
 
 
@@ -245,39 +242,42 @@
 <div class="container mt-5 mb-5">
   <div class="row">
     <div class="col-md-8">
-      <h3>User Flows</h3>
+      <h3>User Flow</h3>
     </div>
   </div>
 
-  <div class="row mt-auto">
+  <div class="row mt-3 mb-3">
     <div class="col-lg-12 col-md-12 mb-4">
-      <div class="boldish">
-        (Describe scope & focus)
+      <div class="section-lead">
+        Developing an intuitive navigation structure was a large component of this re-design. User interviews indicated a clear interest in an easy and intuitive navigation, that was also easily browsable.
       </div>
-      <div class="moreish">
-        (Describe difficulties)
+      <div class="strong-body">
+        In practice, I found this "perfect" structure to be difficult to nail down. I started by creating a set of notecards listing a selection of resources, and asked three people to group them. All three individuals separated the items by their type, but also commented that they could see grouping by topic to be useful.
       </div>
+			<div class="strong-body">
+				In response, I worked out a user flow that could be searched by both category and topic - inspired by blog design-patterns. The most inclusive categories were item types, so they became categories, and topics were assigned as tags.
+			</div>
     </div>
   </div>
-	<div class="row justify-content-center mt-4 mb-2">
-    <div class="col-lg-10 col-md-12 d-flex justify-content-center">
-      <img src="assets/img/ssmh_uf_explore.png" alt="resource_exploration_user-flow-screenshot" style="height:90%;width:60%;" />
+	<div class="row justify-content-center mt-4 mb-3">
+    <div class="col-lg-10 col-md-10 d-flex justify-content-center">
+      <img class="card-img" src="assets/img/ssmh_uf_explore.png" alt="resource_exploration_user-flow-screenshot" />
     </div>
 	</div>
 </div>
 
-
+<!-- ending div: research -->
 					</div>
 
 <!-- Division: Design -->
           <div class="container mt-5 mb-5">
             <div class="row">
               <div class="col-md-8">
-                <h2>Design Phase</h2>
+                <h2 class="phase-title">Design Phase</h2>
               </div>
             </div>
-  					<hr />
-          </div>
+
+
 
 
 <!-- Section: Wireframes -->
@@ -288,18 +288,18 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row mt-3 mb-3">
     <div class="col-lg-12">
-      <div class="boldish">
-        Below are some examples of early sketches and wireframes.
+      <div class="section-lead">
+        Below are examples of rapid sketching and wireframes for this project.
 			</div>
-			<div class="moreish mb-2">
-				During this aspect of the design phase, I was most focused on the most efficient ways to include all required form and information components. This proved to be a challenging task, juggling in-app accounts, the diversity of site information, and the heavy data requirements for campsite bookings.
+			<div class="strong-body">
+				I found inspiration for numerous design patterns from resource websites and blogs. I rapidly iterated on layouts with pen and paper sketching, and translated two of the most promising series to wireframes for A/B testing.
       </div>
     </div>
   </div>
 
-  <div class="row justify-content-center">
+  <div class="row justify-content-center mt-3 mb-3">
     <div class="col-lg-12 col-md-12 mt-4">
       <img src="assets/img/wireframe_section_ss.png" alt="wireframes" style="width:90%;height:90%;"/>
     </div>
@@ -319,15 +319,15 @@
 
   <div class="row justify-content-center mt-auto">
     <div class="col-lg-12 col-md-12">
-      <div class="boldish">
-				User testing was performed with wireframes utilizing InVision. Participants were instructed to imagine they were visiting the app for the first time, and would like to try to book a campsite.
+      <div class="section-lead">
+				By defining content using both categories and tags, the information structure and user-flow was relatively direct. The new challenge was finding a visual structure that is uncomplicated, but also provides enough information and options to guide the user towards finding what they need.
     	</div>
 			<div class="row justify-content-center">
-			<div class="col-lg-6 col-md-12 moreish">
-				Overall impressions were favorable, but multiple users felt that too much personal information was requested too soon, and the non-native input forms added to a feeling of skepticism before they were given a chance to build trust with the app.
+			<div class="col-lg-6 col-md-12 strong-body">
+				To evaluate the clarity of the content presentation I performed a click test using wireframes, presenting users with a category page and asking them to click to a topic page.
 			</div>
-			<div class="col-lg-6 col-md-12 moreish">
-				The diversity of features was well-received, especially amongst users that are frequent campers, as they were able to find information that they considered important. The structure of the information was not immediately intuitive for most, which prompted a card-sorting survey before the next iteration of the design.
+			<div class="col-lg-6 col-md-12 strong-body">
+				The most successful layout featured breadcrumbs and links integrated into titles. By not hiding navigation elements behind additional clicks, users were able to successfully find their destination on the first click, versus opening menus and elements to try and find the path. This design adds increased visual "clutter", but by using simple coloring and clear visual hierarchy, distractions are minimal.
 			</div>
 		</div>
   </div>
@@ -345,8 +345,8 @@
 
   <div class="row">
     <div class="col-lg-12">
-      <div class="boldish">
-        Examples of the visual design are compiled below - many native iOS elements were used to create a feeling of trustworthiness, and a natural color scheme was employed to evoke a sense of connecting with nature.
+      <div class="section-lead">
+        The final visual design is intended to be simple and direct. While it may not have "trendy" visuals, animations, and effects, its focus on usability helps to meet the needs of a diverse user-base - and hopefully evokes a feeling of calm to visitors.
       </div>
     </div>
   </div>
@@ -358,29 +358,31 @@
   </div>
 </div>
 
+<!-- ending div: design -->
+          </div>
 
 <!-- Conclusions -->
 <div class="container mt-5 mb-5">
   <div class="row">
     <div class="col-md-8">
-      <h2>Conclusions & Next Steps</h2>
+      <h2 class="phase-title">Conclusions & Next Steps</h2>
     </div>
   </div>
-<hr />
+
   <div class="row">
     <div class="col-lg-6">
-      <div class="boldish">
-        Final user testing was positive. Participants had little issue with navigation, found the features to be useful, and did not indicate a lack of trust of the app.
+      <div class="section-lead">
+        This re-design presented unique challenges involving patient confidentiality and a select user base. Developing a strategy to implement the project requirements involved many conversations with the primary stateholder to determine priorities and the root-problems driving various requested features.
       </div>
 			<div class="moreish">
 
 			</div>
     </div>
 		<div class="col-lg-6">
-			<div class="moreish">
-				Moving forwards, I would continue to revise the required form fields standing between the user and booking. This could potentially be solved by having "modular" forms so that different owners and property agencies could specify only the information that was necessary. Additionally, there is potential to leverage user data to provide personalized recommendations from past stays.
+			<div class="strong-body">
+				Next steps for this project should likely involve a re-design of the business' landing page, to encourage visitors to explore the resources deeper in the site. Another route for increasing traffic could be through evaluating the site's SEO - as well as its overall taxonomy, to ensure it falls in line with what users are searching.
 			</div>
-			<div class="moreish">
+			<div class="strong-body">
 
 			</div>
 		</div>
